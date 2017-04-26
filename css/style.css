@@ -1,28 +1,44 @@
 body {
-	font-family: PTSans;
+	width: 1200px;
+	font-family: "PT Sans Narrow", Arial sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	line-height: 24px;
-	font-weight: regular;
+	font-weight: normal;
 	font-weight: bold;
 }
+.container {
+	width: 940px;
+	background: #c3bebe;
+
+	padding-left: 130px;
+	padding-right: 130px;
+	padding-top: 20px;
+}
+.container h1 {
+	font-size: 30px;
+	line-height: 42px;
+	margin-bottom: 21px;
+}
 .main-navigator {
+	float: left;
+	width: 780px;
 	font-size: 16px;
 	color: #fff;
 	line-height: 20px;
 }
-.container h1{
-	font-size: 30px;
-	line-height: 42px;
+.breadcrumbs-item {
+	width: 940px;
+	margin-bottom: 54px;
 }
-.breadcrumbs a{
+.breadcrumbs a {
 	line-height: 20px;
 }
 .breadcrumbs span {
 	line-height: 20px;
 	color: #aba9a7;
 }
-.conteiner h2{
+.conteiner h2 {
 	font-size: 24px;
 	line-height: 30px;
 }
@@ -32,4 +48,87 @@ body {
 .product .name {
 	line-height: 18px;
 	text-transform: lowercase;
+}
+.main-header {
+	min-height: 70px;
+}
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container .img-main {
+	background-image: url(img/product-view.png);
+	margin-bottom: 21px;
+}
+.img-container {
+	float: left;
+	width: 540px;
+}
+.description {
+	float: right;
+	width: 400px;
+}
+.description-item {
+	padding-top: 17px;
+}
+.description-item span {
+	margin-bottom: 30px;
+}
+.description-item p {
+	padding-bottom: 46px;
+}
+.slider-img {
+	margin: 0 auto;
+}
+.price {
+	padding-bottom: 43px;
+}
+.main-footer .container {
+	background-color: #202020;
+}
+.footer-contacts {
+	float: left;
+	width: 320px;
+	padding-top: 56px;
+	margin-right: 60px;
+}
+.footer-social {
+	float: left;
+	width: 180px;
+	padding-top: 56px;
+}
+.footer-copyright {
+	float: right;
+	width: 180px;
+	padding-top: 56px;
+}
+.manufactures {
+	float: left;
+	width: 240px;
+}
+.manufactures-item h2 {
+	margin-bottom: 30px;
+}
+.product-item {
+	float: right;
+	display: list-item;
+	width: 700px;
+	margin-bottom: 45px;
+}
+.product {
+	display: inline-block;
+	width: 220px;
+	height: 228px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.product .price {
+	padding-bottom: 0;
 }
